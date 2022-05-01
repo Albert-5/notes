@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'note\x1b[D\x1b[D\x1b[N\x1b[C\x1b[C\x1b[C\x1b[s'
+project = 'notes'
 copyright = '2022, albert'
 author = 'albert'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.0'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -45,7 +45,7 @@ language = 'zh_CN'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-extensions = ['recommonmark','sphinx_markdown_tables'] 
+exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -53,11 +53,9 @@ extensions = ['recommonmark','sphinx_markdown_tables']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'alabaster'
 html_theme = 'furo'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-# html_static_path = [furo.get_html_theme_path()]
