@@ -60,3 +60,12 @@ html_theme = "furo"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+######此处为新增内容
+# adding a logo
+html_logo = r'_static\avatar.jpg'
+# different logos for light and dark mode
+html_theme_options = {
+    "light_logo": r"_static\avatar.jpg",
+    "dark_logo": r"_static\avatar.jpg",
+}
